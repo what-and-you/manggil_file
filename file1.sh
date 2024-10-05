@@ -10,14 +10,16 @@ echo "
 2.upgrade
 3.exit
 "
-read -p "pilih menu" ren9999
+read -p "pilih menu: " ren9999
 
 if [ $ren9999 == 1 ]
 ./update.sh
 fi
+
 if [ $ren9999 == 2 ]
 ./upgrade.sh
 fi
-if [ $ren9999 == 1 ]
+
+if [ $ren9999 == 3 ]
 ./exit.sh
 fi

@@ -13,13 +13,13 @@ echo "
 read -p "pilih menu: " ren9999
 
 if [ $ren9999 == 1 ]
-./update.sh
+bash update.sh
 fi
 
 if [ $ren9999 == 2 ]
-./upgrade.sh
+bash upgrade.sh
 fi
 
 if [ $ren9999 == 3 ]
-./exit.sh
+bash exit.sh
 fi

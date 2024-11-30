@@ -1,3 +1,5 @@
+#!/bin/bash
+
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 BLUE='\033[0;34m'
@@ -18,12 +20,10 @@ read -p "pilih menu: " ren9999
 
 if [ $ren9999 == 1 ]
 then
-chmod +x update.sh
 ./update123.sh
 fi
 if [ $ren9999 == 2 ]
 then
-chmod +x upgrade.sh
 ./upgrade.sh
 fi
 if [ $ren9999 == 3 ]

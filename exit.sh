@@ -1,3 +1,5 @@
-echo "keluar dari script"
-sleep 1.5
+#!/bin/bash
+
+# Tampilkan pesan keluar
+echo "Keluar dari script..."
 exit

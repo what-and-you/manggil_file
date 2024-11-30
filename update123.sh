@@ -10,7 +10,7 @@ WHITE='\033[1;37m'
 RESET='\033[0m'
 
 echo -e "${BLUE}pencet enter untuk melanjutkan script${RESET}"
-read -p " "
+read -p ""
 echo "hallo word"
 echo -e "${CYAN}pencet enter untuk kembali ke menu awal${RESET}"
-read -p " "
+read -p ""

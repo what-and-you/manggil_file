@@ -11,7 +11,6 @@ RESET='\033[0m'
 
 echo -e "${BLUE}pencet enter untuk melanjutkan script${RESET}"
 read -p " "
-pkg update
+echo "hallo word"
 echo -e "${CYAN}pencet enter untuk kembali ke menu awal${RESET}"
 read -p " "
-./file1

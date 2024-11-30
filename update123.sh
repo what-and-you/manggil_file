@@ -7,7 +7,9 @@ YELLOW='\033[0;33m'
 WHITE='\033[1;37m'
 RESET='\033[0m'
 
-read -p "pencet enter untuk melanjutkan script"
+echo -e "${BLUE}pencet enter untuk melanjutkan script${RESET}"
+read -p " "
 pkg update
-read -p "pencet enter untuk kembali ke menu awal"
+echo -e "${CYAN}pencet enter untuk kembali ke menu awal${RESET}"
+read -p " "
 ./file1

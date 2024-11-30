@@ -6,4 +6,4 @@ pkg upgrade
 
 # Tunggu pengguna sebelum kembali ke menu utama
 read -p "Tekan Enter untuk kembali ke menu utama."
-./menu.sh
+./file1.sh
